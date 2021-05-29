@@ -27,22 +27,10 @@ class App extends Component {
     this.state = {value: ''};
 
     this.handleChange = this.handleChange.bind(this);
-   this.handleClick = this.handleClick.bind(this);
   }
 
   handleChange(event) {
-    if(this.state.value === ''){
       this.setState({value: event.target.value});
-    }
-    else{
-      alert('Reset Filter')
-      
-    }
-
-  }
-
-  handleClick(event){
-    window.location.reload(false);
   }
 
 
@@ -148,10 +136,7 @@ class App extends Component {
                   </div>
 
                   <div >
-                    <div >
-                        <img alt='reset'   className='reset' src='https://icon-library.com/images/reboot-icon/reboot-icon-22.jpg' />
-                        <button className='reset-button' onClick={this.handleClick}  value=''>Reset</button>
-                    </div>
+                   
                 </div>
             </div>
         </Pop>
@@ -164,7 +149,7 @@ class App extends Component {
            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
          />
- <MarkerClusterGroup>
+ <MarkerClusterGroup  key={this.state.value}>
           {filteredCountry.map(post => {
               return(
                

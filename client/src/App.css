@@ -35,29 +35,6 @@ label{
   width: 23px;
 }
 
-.reset{
-  padding-top: 10px;
-  max-width: 3rem;
-  padding-left: 10px;
-  z-index: 999;
-  position: relative;
-}
-
-.reset-button{
-  
-  cursor:pointer ;
-  background:tomato;
-  border-style:none;
-  width: 100px;
-  height: 30px;
-  position: relative;
-  top:-18px;
-  left: -10px;
-  color: white;
-  z-index: 1;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 
 
 @media only screen and (max-width:600px) {
