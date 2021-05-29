@@ -20,9 +20,9 @@ label{
   max-width: 30px;
   position: absolute;
   margin: auto;
-  left:0;
-  right: 97%;
-  top:-75vh;
+  left:95%;
+  right: 0%;
+  top:-90vh;
   bottom:0;
   z-index: 999;
   cursor: pointer;
@@ -79,11 +79,12 @@ label{
     max-width: 30px;
     position: absolute;
     margin: auto;
-    left:0;
-    right: 94%;
-    top:-75vh;
+    left:95%;
+    right: 0%;
+    top:-90vh;
     bottom:0;
     z-index: 999;
+    cursor: pointer;
   }
   
 }
