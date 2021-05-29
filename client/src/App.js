@@ -109,7 +109,7 @@ class App extends Component {
        
         <div>
         
-        <Pop trigger={<img alt='filter_icon'  className="filter-icon" src='https://image.flaticon.com/icons/png/512/4305/4305510.png' />} position="right top">
+        <Pop trigger={<img alt='filter_icon'  className="filter-icon" src='https://image.flaticon.com/icons/png/512/4305/4305510.png' />} position="left top">
             <div className="filter-box">
 
                 <div >
