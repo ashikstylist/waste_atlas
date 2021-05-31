@@ -6,6 +6,6 @@ A Web Application developed using MERN stack. User friendly map representation o
 
 Visit our [Waste Atlas](https://objective-beaver-c92b91.netlify.app/)
 
-On top right corner. Click ![filter_icon](https://image.flaticon.com/icons/png/512/4305/4305510.png  =250x "Filter Icon")
+On top right corner. Click <img src="https://image.flaticon.com/icons/png/512/4305/4305510.png" max-width="100px">
 
 Select one of the following filter options to plot the map
