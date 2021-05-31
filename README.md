@@ -10,13 +10,13 @@ A Web Application developed using MERN stack. User friendly map representation o
 
 2. Filter option is implemented to filter solid waste data based on the following resources :
 
-* Countries
-* City
-* Dumpsites 
-* Sanitary Landfills
-* MBT
-* Incinerator Plants
-* Biological Treatment
+    * Countries
+    * City
+    * Dumpsites 
+    * Sanitary Landfills
+    * MBT
+    * Incinerator Plants
+    * Biological Treatment
 
 3. In addition, `marker cluster` is implemented to group markers in order to handle bunch of markers
 
