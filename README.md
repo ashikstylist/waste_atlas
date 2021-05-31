@@ -6,19 +6,19 @@ A Web Application developed using MERN stack. User friendly map representation o
 
 ## Features 
 
-The solid waste dataset includes Annual reports, Waste Generation per capita, Environmental stress, Recycling rate, Disposal details etc
+1. The solid waste dataset includes Annual reports, Waste Generation per capita, Environmental stress, Recycling rate, Disposal details etc
 
-Filter option is implemented to filter solid waste data based on the following resources :
+2. Filter option is implemented to filter solid waste data based on the following resources :
 
-⋅⋅* Countries
-⋅⋅* City
-⋅⋅* Dumpsites 
-⋅⋅* Sanitary Landfills
-⋅⋅* MBT
-⋅⋅* Incinerator Plants
-⋅⋅* Biological Treatment
+* Countries
+* City
+* Dumpsites 
+* Sanitary Landfills
+* MBT
+* Incinerator Plants
+* Biological Treatment
 
-In addition, `marker cluster` is implemented to group markers in order to handle bunch of markers
+3. In addition, `marker cluster` is implemented to group markers in order to handle bunch of markers
 
 
 ## Demo and Usage Guidance
@@ -41,7 +41,7 @@ Run `npm start`
 
 ## Dependencies
 
-`react` `react-leaflet` `leaflet` `open-street map` `mongoDB` `express` `nodejs` 
+`react` `react-leaflet` `leaflet` `open-street-map` `mongoDB` `express` `nodejs` 
 
 
 
