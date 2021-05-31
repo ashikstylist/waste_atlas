@@ -1,8 +1,27 @@
 # Waste Atlas 
 
+## Overview 
+
 A Web Application developed using MERN stack. User friendly map representation of global solid waste data.
 
-# Usage Guidance
+## Features 
+
+The solid waste dataset includes Annual reports, Waste Generation per capita, Environmental stress, Recycling rate, Disposal details etc
+
+Filter option is implemented to filter solid waste data based on the following resources :
+
+⋅⋅* Countries
+⋅⋅* City
+⋅⋅* Dumpsites 
+⋅⋅* Sanitary Landfills
+⋅⋅* MBT
+⋅⋅* Incinerator Plants
+⋅⋅* Biological Treatment
+
+In addition, `marker cluster` is implemented to group markers in order to handle bunch of markers
+
+
+## Demo and Usage Guidance
 
 Visit our [Waste Atlas](https://objective-beaver-c92b91.netlify.app/)
 
@@ -10,11 +29,19 @@ On top right corner. Click <img src="https://image.flaticon.com/icons/png/512/43
 
 Select one of the following filter options to plot the map
 
-## Run our client application
+
+## Running the project
 
 First, make sure you are directed into client directory or use `cd client`
 
 To install our application `npm install`
 
 Run `npm start`
+
+
+## Dependencies
+
+`react` `react-leaflet` `leaflet` `open-street map` `mongoDB` `express` `nodejs` 
+
+
 
